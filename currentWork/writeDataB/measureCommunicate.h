@@ -42,8 +42,6 @@ unsigned int measureSoundLevel() {
          }
       }
    }
-   peakToPeak = signalMax - signalMin
-   volts = peakToPeak * 5.0 / 1024;.
-   return volts;
-   
+   peakToPeak = signalMax - signalMin;
+   return peakToPeak * 5.0 / 1024;
 }
