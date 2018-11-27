@@ -1,10 +1,6 @@
-#include <Wire.h>
+#include "../measureCommunicate.h"
 #include <LiquidCrystal.h>
-
-#include <Wire.h>
-#include "I2C_Anything.h"
-#include <LiquidCrystal.h>
-
+.
 
 const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);

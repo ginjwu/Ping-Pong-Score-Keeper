@@ -1,4 +1,4 @@
-#include <Wire.h>
+#include "../measureCommunicate.h"
 
 unsigned int measureSoundLevel() {
    unsigned long startMillis= millis();  // Start of sample window
